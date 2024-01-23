@@ -22,13 +22,13 @@ print("Welcome to Treasure Island")
 print("Your mission is to find the treasure")
 
 
-choice1=input('You are at the cross roads,where would you go ? Type "left" or "right"').lower()
+choice1=input('You are at the cross roads,where would you go ? Type "left" or "right" \n').lower()
 
 
 if choice1 == "left":
-    choice2=input("You\'ve come to a lake.There is an island in the middle of the lake. type 'wait' to wait for the boat or type 'swim' to swim across the lake.").lower()
+    choice2=input("You\'ve come to a lake.There is an island in the middle of the lake. type 'wait' to wait for the boat or type 'swim' to swim across the lake.\n").lower()
     if choice2 =="wait":
-        choice3 =input("You arrive at the island unharmed.There is a house with three doors.One red, one yellow and one blue. which color do you choose?").lower()
+        choice3 =input("You arrive at the island unharmed.There is a house with three doors.One red, one yellow and one blue. which color do you choose? \n").lower()
         if choice3 == "red":
             print("you are in a room full of fire!. Game over")
         elif choice3 == "blue":
